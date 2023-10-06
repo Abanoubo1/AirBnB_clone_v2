@@ -20,7 +20,7 @@ SERVER_CONFIG="server {
 	}
 
 	if (\$request_filename ~ redirect_me) {
-		rewrite ^ https://facebook.com/bedweyy permanent;
+		rewrite ^ https://facebook.com permanent;
 	}
 
 	location = /404.html {
